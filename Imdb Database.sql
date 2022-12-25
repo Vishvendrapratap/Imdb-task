@@ -62,7 +62,7 @@ CREATE TABLE movie_review(
 Insert into movie_review (UserName, Review) values ('Mahesh', 3), ('Satish', 4), ('Paul', 1), ('Altaf', 5), ('Gurvinder', 4);
 select * from movie_review;
 
--- Tabble for roles
+-- Tabble for roless
 CREATE TABLE artist_role(
 	Id INT PRIMARY KEY auto_increment,
     Role VARCHAR(255)
